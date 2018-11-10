@@ -1,0 +1,90 @@
+.titles
+	&-text
+		margin-bottom: 48px
+		.titles-header
+			font-family: "SignPainter HouseScript"
+			font-size: 53px
+			font-weight: 400
+			color: $button-green
+			text-align: center
+		.titles-desc
+			color: #6a6c74
+			font-family: 'Roboto'
+			font-size: 15px
+			font-weight: 400
+			line-height: 20px
+			width: 800px
+			text-align: center
+			margin: 0 auto
+	&-books
+		display: flex
+		justify-content: space-between
+		margin-bottom: 56px
+		.titles-book
+			position: relative
+			&:hover 
+				.book-hover
+					opacity: 1
+					transform: scale(1)
+			img
+				width: 246px
+			.book-hover
+				position: absolute
+				top: 0
+				left: 0
+				bottom: 0
+				right: 0
+				opacity: 0
+				background: $bg-color-dark
+				background: rgba(33, 33, 33, 0.75)
+				transform: scale(.8)
+				border-radius: 10px
+				transition: opacity .3s, transform .3s
+				text-align: center
+				&-title
+					opacity: 1
+					padding-top: 54px
+					color: #6dc7b7
+					font-family: "Lobster"
+					font-size: 30px
+					font-weight: 400
+					margin-bottom: 8px
+				&-subtitle
+					color: $text-color-light
+					font-family: 'Roboto'
+					font-size: 12px
+					font-weight: 400
+					letter-spacing: 0.8px
+					text-transform: uppercase
+					margin-bottom: 22px
+				&-desc
+					opacity: 0.75
+					color: $text-color-light
+					font-family: 'Roboto'
+					font-size: 16px
+					font-weight: 400
+					line-height: 24px
+					width: 158px
+					margin: 0 auto
+					margin-bottom: 50px
+				.titles-button
+					color: $text-color-light
+					font-family: 'Roboto'
+					font-size: 12px
+					letter-spacing: 0.8px
+					font-weight: 400
+					text-transform: uppercase
+					background-color: #6dc7b7
+					border-radius: 100px
+					padding: 12px 52px
+	.titles-purchase
+		color: $text-color-light
+		font-family: 'Roboto'
+		font-size: 12px
+		letter-spacing: 0.8px
+		font-weight: 500
+		background-color: #00b098
+		padding: 19px 30px
+		display: block
+		margin: 0 auto
+		margin-bottom: 50px

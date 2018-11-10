@@ -1,0 +1,340 @@
+.home-top
+	font-weight: 400
+	text-transform: uppercase
+	letter-spacing: 1.2px
+	padding: 28px 0px
+	text-align: center
+	background-color: $bg-color-dark
+	color: $text-color-light
+	font-family: 'Roboto'
+	font-size: 13px
+	letter-spacing: 0.8px
+.home-header
+	height: 225px
+	.container
+		display: flex
+		justify-content: space-between
+	.menu-left
+		.header-img
+			padding-top: 49px
+			margin-bottom: 28px
+			width: 304px
+		.logo-text
+			color: $bg-color-dark
+			font-family: "SignPainter HouseScript"
+			font-size: 30px
+			font-weight: 400
+			margin-left: 30px
+	.menu-right
+		a
+			color: $text-color-black
+			text-decoration: none
+		position: relative
+		color: $text-color-black
+		font-family: 'Futura'
+		font-size: 33px
+		font-weight: 700
+		text-transform: uppercase
+		left: -240px
+		top: -45px
+		&-home-h
+			&:hover
+				cursor: pointer
+				.menu-let-h
+					transition: all .2s
+					color: $text-color-light
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: 0px
+						left: -8px
+						width: 48px
+						height: 48px
+						background: url('../img/header/green-box.png') no-repeat
+						background-size: 42px 42px
+						transform: rotate(0deg)
+				.menu-right__h
+					font-weight: 500
+					&:after
+						width: 50px
+			.menu-let
+				display: inline-block
+				position: relative
+				top: 140px
+				&-h
+					position: absolute
+					left: 0px
+					z-index: 2
+					padding-bottom: 20px
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: -2px
+						left: -11px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(7deg)
+					&:after
+						content: ""
+						position: absolute
+						z-index: -2
+						top: -14px
+						left: -22px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(-2deg)
+			.menu-right__h
+				position: absolute
+				font-family: "Roboto"
+				font-weight: 400
+				font-size: 15px
+				text-transform: none
+				top: 196px
+				left: -10px
+				z-index: 5
+				color: $text-color-black
+				text-decoration: none
+				display: inline-block
+				&:after
+					background-color: $main-color-green
+					display: block
+					content: ""
+					height: 4px
+					width: 0px
+					left: -4px
+					position: absolute
+					transition: width .3s ease-in-out
+					transform: translateY(5px)
+		&-home-t
+			&:hover
+				cursor: pointer
+				.menu-let-t
+					transition: all .2s
+					color: $text-color-light
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: 0px
+						left: -13px
+						width: 48px
+						height: 48px
+						background: url('../img/header/green-box.png') no-repeat
+						background-size: 42px 42px
+						transform: rotate(0deg)
+				.menu-right__t
+					font-weight: 500
+					&:after
+						width: 42px
+			.menu-let
+				display: inline-block
+				position: relative
+				top: 140px
+				&-t
+					position: absolute
+					left: 67px
+					z-index: 2
+					transform: rotate(-10deg)
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: -3px
+						left: -16px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(8deg)
+					&:after
+						content: ""
+						position: absolute
+						z-index: -2
+						top: -15px
+						left: -20px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(36deg)
+			.menu-right__t
+				position: absolute
+				font-family: "Roboto"
+				font-weight: 400
+				font-size: 15px
+				text-transform: none
+				top: 176px
+				left: 56px
+				z-index: 5
+				color: $text-color-black
+				text-decoration: none
+				display: inline-block
+				padding-top: 20px
+				padding-bottom: 10px
+				&:after
+					background-color: $main-color-green
+					display: block
+					content: ""
+					height: 4px
+					width: 0px
+					position: absolute
+					transition: width .3s ease-in-out
+					transform: translate(-1px, 5px)
+		&-home-a
+			&:hover
+				cursor: pointer
+				.menu-let-a
+					transition: all .2s
+					color: $text-color-light
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: 22px
+						left: 12px
+						width: 48px
+						height: 48px
+						background: url('../img/header/green-box.png') no-repeat
+						background-size: 42px 42px
+						transform: rotate(0deg)
+				.menu-right__a
+					font-weight: 500
+					&:after
+						width: 45px
+			.menu-let
+				display: inline-block
+				position: relative
+				top: 140px
+				&-a
+					position: absolute
+					left: 104px
+					top: 120px
+					padding: 20px 20px 20px 20px
+					z-index: 2
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: 19px
+						left: 9px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(7deg)
+					&:after
+						content: ""
+						position: absolute
+						z-index: -2
+						top: 7px
+						left: 19px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(-11deg)
+			.menu-right__a
+				position: absolute
+				font-family: "Roboto"
+				font-weight: 400
+				font-size: 15px
+				text-transform: none
+				top: 196px
+				left: 117px
+				z-index: 5
+				color: $text-color-black
+				text-decoration: none
+				display: inline-block
+				&:after
+					background-color: $main-color-green
+					display: block
+					content: ""
+					height: 4px
+					width: 0px
+					position: absolute
+					transition: width .3s ease-in-out
+					transform: translate(-2px, 5px)
+		&-home-c
+			&:hover
+				cursor: pointer
+				.menu-let-c
+					transition: all .2s
+					color: $text-color-light
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: 1px
+						left: -11px
+						width: 48px
+						height: 48px
+						background: url('../img/header/green-box.png') no-repeat
+						background-size: 42px 42px
+						transform: rotate(0deg)
+				.menu-right__c
+					font-weight: 500
+					&:after
+						width: 56px
+			.menu-let
+				display: inline-block
+				position: relative
+				top: 140px
+				&-c
+					position: absolute
+					left: 193px
+					transform: rotate(11deg)
+					&:before
+						content: ""
+						position: absolute
+						z-index: -1
+						top: -2px
+						left: -14px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(7deg)
+					&:after
+						content: ""
+						position: absolute
+						z-index: -2
+						top: -14px
+						left: -8px
+						width: 48px
+						height: 48px
+						background: url('../img/header/white-box.png') no-repeat
+						background-size: 48px 48px
+						transform: rotate(-2deg)
+			.menu-right__c
+				position: absolute
+				font-family: "Roboto"
+				font-weight: 400
+				font-size: 15px
+				text-transform: none
+				top: 176px
+				left: 180px
+				z-index: 5
+				color: $text-color-black
+				text-decoration: none
+				display: inline-block
+				padding-top: 20px
+				&:after
+					background-color: $main-color-green
+					display: block
+					content: ""
+					height: 4px
+					width: 0px
+					position: absolute
+					transition: width .3s ease-in-out
+					transform: translate(-2px, 5px)
+
+
+
+
+

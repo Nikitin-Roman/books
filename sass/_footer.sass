@@ -1,0 +1,62 @@
+.footer-container
+	width: 90%
+	margin: 0 auto
+.wave
+	background: url(../img/footer/Background1.png) center no-repeat
+	background-size: 100%
+	width: 100%
+	height: 100px
+	background-color: #fff
+	padding-top: -70px
+	.logo-footer-img
+		transform: translateY(100%)
+		img
+			width: 178px
+	.logo-footer-text
+		transform: translateY(300%)
+		color: $text-color-light
+		font-family: 'Roboto'
+		font-size: 18px
+		font-weight: 500
+		text-transform: uppercase
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			display: block
+			height: 2px
+			color: white
+			background-color: white
+			width: 98%
+			left: 1%
+			opacity: 0.5
+			transform: translateY(24px)
+.footer
+	background-color: $button-green
+	padding-top: 0px
+	.footer-contant
+		width: 90%
+		margin: 0 auto
+		display: flex
+		justify-content: space-between
+		margin-top: -20px
+		padding-top: 136px
+		.copy
+			color: $text-color-light
+			font-family: 'Roboto'
+			font-size: 16px
+			font-weight: 400
+		.privacy-terms
+			padding-bottom: 66px
+			a
+				color: $text-color-light
+				font-family: 'Roboto'
+				font-size: 15px
+				font-weight: 400
+				text-transform: uppercase
+				letter-spacing: 0.8px
+				text-decoration: none
+			.privacy
+				margin-right: 50px
+			.terms
+				margin-right: 23px
